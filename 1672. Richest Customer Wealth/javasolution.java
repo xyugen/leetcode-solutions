@@ -44,9 +44,7 @@ class RichestCustomerWealth {
             for (int i : account) {
                 currentAccountWealth += i;
             }
-            if (currentAccountWealth > maximumAccountWealth) {
-                maximumAccountWealth = currentAccountWealth;
-            }
+            maximumAccountWealth = Math.max(maximumAccountWealth, currentAccountWealth);
         }
 
         return maximumAccountWealth;
