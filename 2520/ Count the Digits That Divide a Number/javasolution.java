@@ -1,12 +1,9 @@
 class CountDigits {
     public static void main(String[] args) {
-        int[] testInput = {7, 121, 1248};
-        for (int i : testInput) {
-            System.out.printf("Output %d: %d\n", i, countDigits(i));
-        }
+        //
     }
 
-    //
+    // Submitted 2023-08-26
     public static int countDigits(int num) {
         if (num <= 9) return 1;
 
